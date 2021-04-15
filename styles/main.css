@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.header {
+  background-color: white;
+  color: #4a4a4a;
+  top: 0;
+  width: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 3px 0;
+}
+.menu {
+  padding: 0px;
+}
+.menu-item {
+  display: inline-block;
+}
+.menu-link {
+  text-decoration: none;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.main {
+  background-color: #3cdbc0;
+  color: #ffffff;
+  height: 100vh;
+}
