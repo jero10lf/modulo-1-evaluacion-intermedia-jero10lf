@@ -7,15 +7,19 @@
   background-color: white;
   color: #4a4a4a;
   top: 0;
-  width: 100vh;
+  width: 100%;
   position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 0 3px 0;
 }
+.link-logo {
+  width: 155px;
+}
 .menu {
   padding: 0px;
+  font-size: 16px;
 }
 .menu-item {
   display: inline-block;
@@ -26,8 +30,28 @@
   text-transform: uppercase;
   padding: 10px;
 }
+
 .main {
+  margin-top: 90px;
   background-color: #3cdbc0;
   color: #ffffff;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-item {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 20px 30px;
+  }
+  .title-item {
+    font-size: 40px;
+  }
 }
